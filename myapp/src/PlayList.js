@@ -29,6 +29,7 @@ const Search = styled.input`
     height: 2rem;
     width: 90vw;
     border-radius: 10px;
+    font-size: 1rem;
     background: rgba(206, 214, 224, 0.05);
     color: #E5E5E5;
     border: 3px solid #20B2AA;
@@ -37,6 +38,7 @@ const Search = styled.input`
     margin: 0;
     ::placeholder {
         color: #bcc4c1;
+        font-size: 0.75rem;
     }
     @media only screen and (min-width: 768px) {
         width: 35rem;
